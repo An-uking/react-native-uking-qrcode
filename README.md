@@ -12,7 +12,11 @@
 
 ##Installation
 
-#IOS:
+###npm or yarn 
+
+npm install react-native-uking-qrcode  or yarn add react-native-uking-qrcode
+
+###IOS:
 
 在你的项目ios目录下面新建一个Profile文件:
 ```
