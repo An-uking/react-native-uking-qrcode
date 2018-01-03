@@ -8,9 +8,9 @@
 
 二维码和条码生成组件和二维码扫描组(开发中)是基于 
 
-LBXScan(IOS) GIT: https://github.com/bingoogolapple/BGAQRCode-Android.git
+LBXScan(IOS) GIT: https://github.com/MxABC/LBXScan.git
 
-BGAQRCode-Android(android) GIT: https://github.com/MxABC/LBXScan
+BGAQRCode-Android(android) GIT: https://github.com/bingoogolapple/BGAQRCode-Android.git
 
 ##注：
 
