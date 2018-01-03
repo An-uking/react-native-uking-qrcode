@@ -140,4 +140,4 @@ UPC_E
 UPC_EAN_EXTENSION
 
 ```
-###二维码扫描  QRScanner 开发中
+###3. 二维码扫描  QRScanner 开发中
