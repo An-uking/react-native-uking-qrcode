@@ -105,7 +105,5 @@ import {BarCode} from 'react-native-uking-qrcode';
           width:300,
           height:100
         }} />
-   
-   this.player.seek(0.1)
 ```
 ##二维码扫描  QRScanner 开发中
