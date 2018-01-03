@@ -1,5 +1,5 @@
-import QRCode from './QRCodeImageView'
-import BarCode from './BarCodeImageView'
+import QRCode from './QRCode'
+import BarCode from './BarCode'
 //import QRScanner from './QRScanner'
 import QRTest from './test'
 
