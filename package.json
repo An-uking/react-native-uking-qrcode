@@ -1,6 +1,6 @@
 {
   "name": "react-native-uking-qrcode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Native QRCode and  barcode and QRScanner component for React Native SDK",
   "main": "index.js",
   "scripts": {
