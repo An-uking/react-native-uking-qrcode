@@ -91,7 +91,9 @@ protected List<ReactPackage> getPackages() {
 
 
 ##Usage
+
 ###1. 二维码 QRCode  二维码logo暂不支持
+
 ```javascript
 import {QRCode} from 'react-native-uking-qrcode';
 
@@ -104,6 +106,7 @@ import {QRCode} from 'react-native-uking-qrcode';
         }} />
 ```
 ###2. 条码 BarCode
+
 ```javascript
 import {BarCode} from 'react-native-uking-qrcode';
 
