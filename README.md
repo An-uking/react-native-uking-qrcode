@@ -67,7 +67,7 @@ On top, where imports are:
 import net.muding.uking.qrcode.RCTQRCodeImageViewPackage;
 ```
 
-Add the `ReactVideoPackage` class to your list of exported packages.
+Add the `RCTQRCodeImageViewPackage` class to your list of exported packages.
 
 ```java
 @Override
