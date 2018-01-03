@@ -1,6 +1,6 @@
 # react-native-uking-qrcode 
 
-[![npm package](https://badge.fury.io/js/react-qr-code.svg)](https://www.npmjs.com/package/react-native-uking-qrcode)
+[![npm package](https://badge.fury.io/js/react-native-uking-qrcode.svg)](https://www.npmjs.com/package/react-native-uking-qrcode)
 
 ##Introduction
 
