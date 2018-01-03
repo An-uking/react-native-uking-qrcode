@@ -4,8 +4,6 @@
 
 原生二维码（QRCode）和条码(BarCode)显示组件及二维码扫描(QRScaner)组件，，集成到 iOS 和 Android 。
 
-支持直播和点播功能，具体详情可以去七牛官方查看
-
 二维码和条码生成组件和二维码扫描组(开发中)是基于 LBXScan(IOS) BGAQRCode-Android(android)
 
 ##注：
