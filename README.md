@@ -20,7 +20,7 @@
     target '你的项目名称' do
         pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga/'    
         pod 'React', path: '../node_modules/react-native/'    
-        pod 'RCTPlayer', path: '../node_modules/react-native-uking-qrcode/ios/'    
+        pod 'RCTZXing', path: '../node_modules/react-native-uking-qrcode/ios/'   
     end
 ```
 然后在ios目录下 执行 pod install
