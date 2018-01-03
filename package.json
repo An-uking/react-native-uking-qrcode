@@ -1,0 +1,31 @@
+{
+  "name": "react-native-uking-qrcode",
+  "version": "0.0.1",
+  "description": "Native QRCode and  barcode and QRScanner component for React Native SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An-uking/react-native-uking-qrcode.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "SDK",
+    "qrcode",
+    "barcode",
+    "qrcode scanner"
+  ],
+  "author": "uking",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/An-uking/react-native-uking-qrcode/issues"
+  },
+  "homepage": "https://github.com/An-uking/react-native-uking-qrcode#readme",
+  "devDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.51.0"
+  }
+}
