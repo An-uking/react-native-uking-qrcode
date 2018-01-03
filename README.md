@@ -86,7 +86,7 @@ protected List<ReactPackage> getPackages() {
 import {QRCode} from 'react-native-uking-qrcode';
 
         <QRCode style={{width:150,height:150}} options={{
-          content:this.state.content,
+          content:'uking',
           size:150,
           forecolor:'#FF6F00',
           backcolor:'#000000',
