@@ -4,7 +4,7 @@
 
 ##Introduction
 
-原生二维码（QRCode）和条码(BarCode)显示组件及二维码扫描(QRScaner)组件，，集成到 iOS 和 Android 。
+原生二维码（QRCode）和条码(BarCode)生成组件及二维码扫描(QRScaner)组件，，集成到 iOS 和 Android 。
 
 二维码和条码生成组件和二维码扫描组(开发中)是基于 
 
