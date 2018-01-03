@@ -1,5 +1,7 @@
 # react-native-uking-qrcode 
 
+[npm package](https://www.npmjs.org/package/react-native-uking-qrcode)
+
 ##Introduction
 
 原生二维码（QRCode）和条码(BarCode)显示组件及二维码扫描(QRScaner)组件，，集成到 iOS 和 Android 。
