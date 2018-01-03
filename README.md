@@ -1,6 +1,6 @@
 # react-native-uking-qrcode 
 
-[npm package](https://www.npmjs.org/package/react-native-uking-qrcode)
+[npm package](https://www.npmjs.com/package/react-native-uking-qrcode)
 
 ##Introduction
 
