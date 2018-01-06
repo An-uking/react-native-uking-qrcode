@@ -8,8 +8,8 @@ var BarCode = {
         options: PropTypes.shape({
             code: PropTypes.string.isRequired,
             format: PropTypes.string,
-            height: PropTypes.number,       //only supports android
-            width: PropTypes.number,     //only supports android
+            height: PropTypes.number,
+            width: PropTypes.number,
         }).isRequired,
     },
 };
