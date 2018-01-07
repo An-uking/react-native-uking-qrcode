@@ -15,7 +15,7 @@ BGAQRCode-Android(android) GIT: https://github.com/bingoogolapple/BGAQRCode-Andr
 
 ##注：
 
-本人不会原生开发，所以参照其他组件修改和添加一些功能，如果有不对的地方请指正。
+如果有不对的地方请提交到issues以便解决。
 
 ##Installation
 
