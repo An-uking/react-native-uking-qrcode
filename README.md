@@ -35,8 +35,8 @@ npm install react-native-uking-qrcode  or yarn add react-native-uking-qrcode
     target '你的项目名称' do
         pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga/'    
         pod 'React', path: '../node_modules/react-native/'    
-        pod 'RCTZXing', path: '../node_modules/react-native-uking-qrcode/ios/'   
-    end
+           pod 'RCTZXing', path: '../node_modules/react-native-uking-qrcode/ios/'   
+    end
 ```
 然后在ios目录下 执行 pod install
 然后把ios/Pods录下 Pods.xcodeproj添加到 Libraries下
