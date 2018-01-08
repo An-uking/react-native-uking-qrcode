@@ -1,6 +1,7 @@
 # react-native-uking-qrcode 
 
 [![npm package](https://badge.fury.io/js/react-native-uking-qrcode.svg)](https://www.npmjs.com/package/react-native-uking-qrcode)
+[![npm download](https://img.shields.io/npm/dm/react-native-uking-qrcode.svg?style=flat-square)](https://www.npmjs.com/package/react-native-uking-qrcode)
 
 ##Introduction
 
@@ -8,13 +9,17 @@
 
 二维码和条码生成组件和二维码扫描组(开发中)是基于 
 
-LBXScan(IOS) GIT: https://github.com/MxABC/LBXScan.git
+LBXScan(IOS) GIT: https://github.com/MxABC/LBXScan.git (已放弃)
+
+SGQRCode(IOS) GIT: https://github.com/kingsic/SGQRCode.git
 
 BGAQRCode-Android(android) GIT: https://github.com/bingoogolapple/BGAQRCode-Android.git
 
 ##注：
 
-本人不会原生开发，所以参照其他组件修改和添加一些功能，如果有不对的地方请指正。
+IOS 版已将ZXingObjc 更新到最新
+
+如果有不对的地方请提交到issues以便解决。
 
 ##Installation
 
@@ -74,17 +79,17 @@ dependencies {
 On top, where imports are:
 
 ```java
-import net.muding.uking.qrcode.RCTQRCodeImageViewPackage;
+import net.muding.uking.qrcode.RCTQRCodePackage;
 ```
 
-Add the `RCTQRCodeImageViewPackage` class to your list of exported packages.
+Add the `RCTQRCodePackage` class to your list of exported packages.
 
 ```java
 @Override
 protected List<ReactPackage> getPackages() {
     return Arrays.asList(
             new MainReactPackage(),
-            new RCTQRCodeImageViewPackage()
+            new RCTQRCodePackage()
     );
 }
 ```
@@ -92,32 +97,32 @@ protected List<ReactPackage> getPackages() {
 
 ##Usage
 
-###1. 二维码 QRCode  二维码logo暂不支持
+###1. 二维码 QRCode
 
 ```javascript
 import {QRCode} from 'react-native-uking-qrcode';
 
-        <QRCode style={{width:150,height:150}} options={{
-          content:'uking',
-          size:150,
-          forecolor:'#FF6F00',
-          backcolor:'#000000',
-          logo:'res/timg.jpeg'
-        }} />
+<QRCode 
+    style={{width:150,height:150}} 
+    forecolor="#FF6621" 
+    backcolor="#256DDD" 
+    text={'by uking'} 
+    logo='path' //logo local path 本地路径
+    size={150} 
+/>
 ```
 ###2. 条码 BarCode
 
 ```javascript
 import {BarCode} from 'react-native-uking-qrcode';
 
-      <BarCode 
-        style={{width:300,height:100}}
-        options={{
-          code:'6923450657713',
-          format:'EAN_13', //条码类型
-          width:300,
-          height:100
-        }} />
+<BarCode
+    style={{width:300,height:100}}                    
+    text='6923450657713'
+    format='EAN_13'
+    width={300}
+    height={100}
+/>
 ```
 条码类型 format :
 ```
@@ -139,4 +144,4 @@ UPC_E
 UPC_EAN_EXTENSION
 
 ```
-###二维码扫描  QRScanner 开发中
+###3. 二维码扫描  QRScanner 开发中
