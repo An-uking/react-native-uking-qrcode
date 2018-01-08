@@ -28,11 +28,15 @@ IOS 版已将ZXingObjc 更新到最新
 npm install react-native-uking-qrcode  or yarn add react-native-uking-qrcode
 
 ##BarCode
+
 ![image](https://github.com/An-uking/react-native-uking-qrcode/blob/master/screenshots/2.jpg)
 
 ##QRCode
+
 ![image](https://github.com/An-uking/react-native-uking-qrcode/blob/master/screenshots/3.jpg)
+
 ![image](https://github.com/An-uking/react-native-uking-qrcode/blob/master/screenshots/4.jpg)
+
 ![image](https://github.com/An-uking/react-native-uking-qrcode/blob/master/screenshots/1.jpg)
 
 ###IOS:
