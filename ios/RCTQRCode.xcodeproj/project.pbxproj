@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932D42B32001D5A4000A0E1E /* RCTQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 932D42B22001D5A4000A0E1E /* RCTQRCode.m */; };
+		932D42B42001D5A4000A0E1E /* RCTQRCode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 932D42B12001D5A4000A0E1E /* RCTQRCode.h */; };
+		9397674420025D6200C50032 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397671220025D6100C50032 /* UIImageView+CornerRadius.m */; };
+		9397674520025D6200C50032 /* RCTBarCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397671420025D6100C50032 /* RCTBarCodeManager.m */; };
+		9397674620025D6200C50032 /* RCTScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397671520025D6100C50032 /* RCTScanner.m */; };
+		9397674720025D6200C50032 /* LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397671820025D6100C50032 /* LBXAlertAction.m */; };
+		9397674820025D6200C50032 /* UIWindow+LBXHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397671E20025D6100C50032 /* UIWindow+LBXHierarchy.m */; };
+		9397674920025D6200C50032 /* UIActionSheet+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397671F20025D6100C50032 /* UIActionSheet+LBXAlertAction.m */; };
+		9397674A20025D6200C50032 /* UIAlertView+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397672020025D6100C50032 /* UIAlertView+LBXAlertAction.m */; };
+		9397674B20025D6200C50032 /* UIAlertController+supportedInterfaceOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397672120025D6100C50032 /* UIAlertController+supportedInterfaceOrientations.m */; };
+		9397674C20025D6200C50032 /* RCTScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397672420025D6200C50032 /* RCTScannerViewController.m */; };
+		9397674D20025D6200C50032 /* LBXPermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397672620025D6200C50032 /* LBXPermissionMicrophone.m */; };
+		9397674E20025D6200C50032 /* LBXPermissionNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397672720025D6200C50032 /* LBXPermissionNetwork.m */; };
+		9397674F20025D6200C50032 /* LBXPermissionCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397672820025D6200C50032 /* LBXPermissionCalendar.m */; };
+		9397675020025D6200C50032 /* LBXPermissionReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397672D20025D6200C50032 /* LBXPermissionReminders.m */; };
+		9397675120025D6200C50032 /* LBXPermissionHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397672E20025D6200C50032 /* LBXPermissionHealth.m */; };
+		9397675220025D6200C50032 /* LBXPermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397672F20025D6200C50032 /* LBXPermissionSetting.m */; };
+		9397675320025D6200C50032 /* LBXPermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397673020025D6200C50032 /* LBXPermissionPhotos.m */; };
+		9397675420025D6200C50032 /* LBXPermissionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397673420025D6200C50032 /* LBXPermissionLocation.m */; };
+		9397675520025D6200C50032 /* LBXPermissionContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397673520025D6200C50032 /* LBXPermissionContacts.m */; };
+		9397675620025D6200C50032 /* LBXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397673620025D6200C50032 /* LBXPermissionCamera.m */; };
+		9397675720025D6200C50032 /* LBXPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397673720025D6200C50032 /* LBXPermission.m */; };
+		9397675820025D6200C50032 /* RCTBarCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397673C20025D6200C50032 /* RCTBarCode.m */; };
+		9397675920025D6200C50032 /* RCTQRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397673D20025D6200C50032 /* RCTQRCodeManager.m */; };
+		9397675A20025D6200C50032 /* RCTScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397673F20025D6200C50032 /* RCTScannerView.m */; };
+		9397675B20025D6200C50032 /* RCTScannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9397674120025D6200C50032 /* RCTScannerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		932D42AC2001D5A4000A0E1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				932D42B42001D5A4000A0E1E /* RCTQRCode.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		932D42AE2001D5A4000A0E1E /* libRCTQRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTQRCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		932D42B12001D5A4000A0E1E /* RCTQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQRCode.h; sourceTree = "<group>"; };
+		932D42B22001D5A4000A0E1E /* RCTQRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQRCode.m; sourceTree = "<group>"; };
+		9397671120025D6100C50032 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		9397671220025D6100C50032 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		9397671320025D6100C50032 /* RCTBarCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBarCodeManager.h; sourceTree = "<group>"; };
+		9397671420025D6100C50032 /* RCTBarCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTBarCodeManager.m; sourceTree = "<group>"; };
+		9397671520025D6100C50032 /* RCTScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTScanner.m; sourceTree = "<group>"; };
+		9397671620025D6100C50032 /* RCTBarCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBarCode.h; sourceTree = "<group>"; };
+		9397671820025D6100C50032 /* LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXAlertAction.m; sourceTree = "<group>"; };
+		9397671920025D6100C50032 /* LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXAlertAction.h; sourceTree = "<group>"; };
+		9397671B20025D6100C50032 /* UIActionSheet+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+LBXAlertAction.h"; sourceTree = "<group>"; };
+		9397671C20025D6100C50032 /* UIAlertController+supportedInterfaceOrientations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+supportedInterfaceOrientations.h"; sourceTree = "<group>"; };
+		9397671D20025D6100C50032 /* UIAlertView+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+LBXAlertAction.h"; sourceTree = "<group>"; };
+		9397671E20025D6100C50032 /* UIWindow+LBXHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+LBXHierarchy.m"; sourceTree = "<group>"; };
+		9397671F20025D6100C50032 /* UIActionSheet+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+LBXAlertAction.m"; sourceTree = "<group>"; };
+		9397672020025D6100C50032 /* UIAlertView+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+LBXAlertAction.m"; sourceTree = "<group>"; };
+		9397672120025D6100C50032 /* UIAlertController+supportedInterfaceOrientations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+supportedInterfaceOrientations.m"; sourceTree = "<group>"; };
+		9397672220025D6100C50032 /* UIWindow+LBXHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+LBXHierarchy.h"; sourceTree = "<group>"; };
+		9397672320025D6100C50032 /* RCTQRCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTQRCodeManager.h; sourceTree = "<group>"; };
+		9397672420025D6200C50032 /* RCTScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTScannerViewController.m; sourceTree = "<group>"; };
+		9397672620025D6200C50032 /* LBXPermissionMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionMicrophone.m; sourceTree = "<group>"; };
+		9397672720025D6200C50032 /* LBXPermissionNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionNetwork.m; sourceTree = "<group>"; };
+		9397672820025D6200C50032 /* LBXPermissionCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCalendar.m; sourceTree = "<group>"; };
+		9397672920025D6200C50032 /* LBXPermissionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionLocation.h; sourceTree = "<group>"; };
+		9397672A20025D6200C50032 /* LBXPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermission.h; sourceTree = "<group>"; };
+		9397672B20025D6200C50032 /* LBXPermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCamera.h; sourceTree = "<group>"; };
+		9397672C20025D6200C50032 /* LBXPermissionContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionContacts.h; sourceTree = "<group>"; };
+		9397672D20025D6200C50032 /* LBXPermissionReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionReminders.m; sourceTree = "<group>"; };
+		9397672E20025D6200C50032 /* LBXPermissionHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionHealth.m; sourceTree = "<group>"; };
+		9397672F20025D6200C50032 /* LBXPermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionSetting.m; sourceTree = "<group>"; };
+		9397673020025D6200C50032 /* LBXPermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionPhotos.m; sourceTree = "<group>"; };
+		9397673120025D6200C50032 /* LBXPermissionCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCalendar.h; sourceTree = "<group>"; };
+		9397673220025D6200C50032 /* LBXPermissionNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionNetwork.h; sourceTree = "<group>"; };
+		9397673320025D6200C50032 /* LBXPermissionMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionMicrophone.h; sourceTree = "<group>"; };
+		9397673420025D6200C50032 /* LBXPermissionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionLocation.m; sourceTree = "<group>"; };
+		9397673520025D6200C50032 /* LBXPermissionContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionContacts.m; sourceTree = "<group>"; };
+		9397673620025D6200C50032 /* LBXPermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCamera.m; sourceTree = "<group>"; };
+		9397673720025D6200C50032 /* LBXPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermission.m; sourceTree = "<group>"; };
+		9397673820025D6200C50032 /* LBXPermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionPhotos.h; sourceTree = "<group>"; };
+		9397673920025D6200C50032 /* LBXPermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionSetting.h; sourceTree = "<group>"; };
+		9397673A20025D6200C50032 /* LBXPermissionHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionHealth.h; sourceTree = "<group>"; };
+		9397673B20025D6200C50032 /* LBXPermissionReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionReminders.h; sourceTree = "<group>"; };
+		9397673C20025D6200C50032 /* RCTBarCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTBarCode.m; sourceTree = "<group>"; };
+		9397673D20025D6200C50032 /* RCTQRCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTQRCodeManager.m; sourceTree = "<group>"; };
+		9397673E20025D6200C50032 /* RCTScannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTScannerManager.h; sourceTree = "<group>"; };
+		9397673F20025D6200C50032 /* RCTScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTScannerView.m; sourceTree = "<group>"; };
+		9397674020025D6200C50032 /* RCTScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTScannerViewController.h; sourceTree = "<group>"; };
+		9397674120025D6200C50032 /* RCTScannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTScannerManager.m; sourceTree = "<group>"; };
+		9397674220025D6200C50032 /* RCTScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTScannerView.h; sourceTree = "<group>"; };
+		9397674320025D6200C50032 /* RCTScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTScanner.h; sourceTree = "<group>"; };
+		9397675C20025E2E00C50032 /* RCTQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RCTQRCode.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932D42AB2001D5A4000A0E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932D42A52001D5A4000A0E1E = {
+			isa = PBXGroup;
+			children = (
+				932D42B02001D5A4000A0E1E /* RCTQRCode */,
+				932D42AF2001D5A4000A0E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		932D42AF2001D5A4000A0E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932D42AE2001D5A4000A0E1E /* libRCTQRCode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932D42B02001D5A4000A0E1E /* RCTQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				9397671020025D6100C50032 /* CornerRadiusCategory */,
+				9397671720025D6100C50032 /* LBXAlertAction */,
+				9397672520025D6200C50032 /* LBXPermissions */,
+				9397671620025D6100C50032 /* RCTBarCode.h */,
+				9397673C20025D6200C50032 /* RCTBarCode.m */,
+				9397671320025D6100C50032 /* RCTBarCodeManager.h */,
+				9397671420025D6100C50032 /* RCTBarCodeManager.m */,
+				932D42B12001D5A4000A0E1E /* RCTQRCode.h */,
+				932D42B22001D5A4000A0E1E /* RCTQRCode.m */,
+				9397672320025D6100C50032 /* RCTQRCodeManager.h */,
+				9397673D20025D6200C50032 /* RCTQRCodeManager.m */,
+				9397674320025D6200C50032 /* RCTScanner.h */,
+				9397671520025D6100C50032 /* RCTScanner.m */,
+				9397673E20025D6200C50032 /* RCTScannerManager.h */,
+				9397674120025D6200C50032 /* RCTScannerManager.m */,
+				9397674220025D6200C50032 /* RCTScannerView.h */,
+				9397673F20025D6200C50032 /* RCTScannerView.m */,
+				9397674020025D6200C50032 /* RCTScannerViewController.h */,
+				9397672420025D6200C50032 /* RCTScannerViewController.m */,
+				9397675C20025E2E00C50032 /* RCTQRCode.bundle */,
+			);
+			path = RCTQRCode;
+			sourceTree = "<group>";
+		};
+		9397671020025D6100C50032 /* CornerRadiusCategory */ = {
+			isa = PBXGroup;
+			children = (
+				9397671120025D6100C50032 /* UIImageView+CornerRadius.h */,
+				9397671220025D6100C50032 /* UIImageView+CornerRadius.m */,
+			);
+			path = CornerRadiusCategory;
+			sourceTree = "<group>";
+		};
+		9397671720025D6100C50032 /* LBXAlertAction */ = {
+			isa = PBXGroup;
+			children = (
+				9397671820025D6100C50032 /* LBXAlertAction.m */,
+				9397671920025D6100C50032 /* LBXAlertAction.h */,
+				9397671A20025D6100C50032 /* Class */,
+			);
+			path = LBXAlertAction;
+			sourceTree = "<group>";
+		};
+		9397671A20025D6100C50032 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9397671B20025D6100C50032 /* UIActionSheet+LBXAlertAction.h */,
+				9397671C20025D6100C50032 /* UIAlertController+supportedInterfaceOrientations.h */,
+				9397671D20025D6100C50032 /* UIAlertView+LBXAlertAction.h */,
+				9397671E20025D6100C50032 /* UIWindow+LBXHierarchy.m */,
+				9397671F20025D6100C50032 /* UIActionSheet+LBXAlertAction.m */,
+				9397672020025D6100C50032 /* UIAlertView+LBXAlertAction.m */,
+				9397672120025D6100C50032 /* UIAlertController+supportedInterfaceOrientations.m */,
+				9397672220025D6100C50032 /* UIWindow+LBXHierarchy.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		9397672520025D6200C50032 /* LBXPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				9397672620025D6200C50032 /* LBXPermissionMicrophone.m */,
+				9397672720025D6200C50032 /* LBXPermissionNetwork.m */,
+				9397672820025D6200C50032 /* LBXPermissionCalendar.m */,
+				9397672920025D6200C50032 /* LBXPermissionLocation.h */,
+				9397672A20025D6200C50032 /* LBXPermission.h */,
+				9397672B20025D6200C50032 /* LBXPermissionCamera.h */,
+				9397672C20025D6200C50032 /* LBXPermissionContacts.h */,
+				9397672D20025D6200C50032 /* LBXPermissionReminders.m */,
+				9397672E20025D6200C50032 /* LBXPermissionHealth.m */,
+				9397672F20025D6200C50032 /* LBXPermissionSetting.m */,
+				9397673020025D6200C50032 /* LBXPermissionPhotos.m */,
+				9397673120025D6200C50032 /* LBXPermissionCalendar.h */,
+				9397673220025D6200C50032 /* LBXPermissionNetwork.h */,
+				9397673320025D6200C50032 /* LBXPermissionMicrophone.h */,
+				9397673420025D6200C50032 /* LBXPermissionLocation.m */,
+				9397673520025D6200C50032 /* LBXPermissionContacts.m */,
+				9397673620025D6200C50032 /* LBXPermissionCamera.m */,
+				9397673720025D6200C50032 /* LBXPermission.m */,
+				9397673820025D6200C50032 /* LBXPermissionPhotos.h */,
+				9397673920025D6200C50032 /* LBXPermissionSetting.h */,
+				9397673A20025D6200C50032 /* LBXPermissionHealth.h */,
+				9397673B20025D6200C50032 /* LBXPermissionReminders.h */,
+			);
+			path = LBXPermissions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932D42AD2001D5A4000A0E1E /* RCTQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932D42B72001D5A4000A0E1E /* Build configuration list for PBXNativeTarget "RCTQRCode" */;
+			buildPhases = (
+				932D42AA2001D5A4000A0E1E /* Sources */,
+				932D42AB2001D5A4000A0E1E /* Frameworks */,
+				932D42AC2001D5A4000A0E1E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTQRCode;
+			productName = RCTQRCode;
+			productReference = 932D42AE2001D5A4000A0E1E /* libRCTQRCode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932D42A62001D5A4000A0E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = uking;
+				TargetAttributes = {
+					932D42AD2001D5A4000A0E1E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 932D42A92001D5A4000A0E1E /* Build configuration list for PBXProject "RCTQRCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 932D42A52001D5A4000A0E1E;
+			productRefGroup = 932D42AF2001D5A4000A0E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932D42AD2001D5A4000A0E1E /* RCTQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932D42AA2001D5A4000A0E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932D42B32001D5A4000A0E1E /* RCTQRCode.m in Sources */,
+				9397674920025D6200C50032 /* UIActionSheet+LBXAlertAction.m in Sources */,
+				9397674E20025D6200C50032 /* LBXPermissionNetwork.m in Sources */,
+				9397675920025D6200C50032 /* RCTQRCodeManager.m in Sources */,
+				9397674420025D6200C50032 /* UIImageView+CornerRadius.m in Sources */,
+				9397674D20025D6200C50032 /* LBXPermissionMicrophone.m in Sources */,
+				9397674620025D6200C50032 /* RCTScanner.m in Sources */,
+				9397674720025D6200C50032 /* LBXAlertAction.m in Sources */,
+				9397675120025D6200C50032 /* LBXPermissionHealth.m in Sources */,
+				9397675A20025D6200C50032 /* RCTScannerView.m in Sources */,
+				9397675820025D6200C50032 /* RCTBarCode.m in Sources */,
+				9397675620025D6200C50032 /* LBXPermissionCamera.m in Sources */,
+				9397674B20025D6200C50032 /* UIAlertController+supportedInterfaceOrientations.m in Sources */,
+				9397675720025D6200C50032 /* LBXPermission.m in Sources */,
+				9397675B20025D6200C50032 /* RCTScannerManager.m in Sources */,
+				9397674F20025D6200C50032 /* LBXPermissionCalendar.m in Sources */,
+				9397675420025D6200C50032 /* LBXPermissionLocation.m in Sources */,
+				9397674820025D6200C50032 /* UIWindow+LBXHierarchy.m in Sources */,
+				9397674520025D6200C50032 /* RCTBarCodeManager.m in Sources */,
+				9397675320025D6200C50032 /* LBXPermissionPhotos.m in Sources */,
+				9397674A20025D6200C50032 /* UIAlertView+LBXAlertAction.m in Sources */,
+				9397674C20025D6200C50032 /* RCTScannerViewController.m in Sources */,
+				9397675220025D6200C50032 /* LBXPermissionSetting.m in Sources */,
+				9397675520025D6200C50032 /* LBXPermissionContacts.m in Sources */,
+				9397675020025D6200C50032 /* LBXPermissionReminders.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		932D42B52001D5A4000A0E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		932D42B62001D5A4000A0E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932D42B82001D5A4000A0E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		932D42B92001D5A4000A0E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932D42A92001D5A4000A0E1E /* Build configuration list for PBXProject "RCTQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932D42B52001D5A4000A0E1E /* Debug */,
+				932D42B62001D5A4000A0E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932D42B72001D5A4000A0E1E /* Build configuration list for PBXNativeTarget "RCTQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932D42B82001D5A4000A0E1E /* Debug */,
+				932D42B92001D5A4000A0E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 932D42A62001D5A4000A0E1E /* Project object */;
+}

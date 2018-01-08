@@ -1,7 +1,7 @@
-import QRCode from './QRCode'
-import BarCode from './BarCode'
+import QRCode from './src/QRCode'
+import BarCode from './src/BarCode'
 //import QRScanner from './QRScanner'
-import QRTest from './test'
+import QRTest from './src/test'
 
 export {
     BarCode,
